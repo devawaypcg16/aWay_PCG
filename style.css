@@ -1,0 +1,62 @@
+body{
+    background-image: url("./Assets/Images/Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#modalSignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodysignin{
+    width: 23rem;
+    height: 20rem;
+}
+
+#loginbox{
+    background-color: 00A98F;
+}
+
+#loginbutton{
+    background-image: url("./Assets/Images/Play\ Button.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin-left:30% ;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.form-control{
+    height: 5px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+
+}
+
+#rememberme{
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
